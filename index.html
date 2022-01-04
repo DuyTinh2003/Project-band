@@ -1,169 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The band</title>
+    <link
+      rel="icon"
+      href="https://displaytechnologies.co.uk/wp-content/uploads/2017/08/DT-LOGO-512.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/themify-icons/themify-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
 
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>The band</title>
-     <link rel="icon" href="https://displaytechnologies.co.uk/wp-content/uploads/2017/08/DT-LOGO-512.png" type="image/x-icon" />
-     <link rel="stylesheet" href="assets/css/styles.css">
-     <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
-</head>
+  <body>
+    <div id="header">
+      <!-- begin nav -->
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#part-inf-member">Band</a></li>
+        <li><a href="#part-tour">Tour</a></li>
+        <li><a href="#part-contact">Contact</a></li>
+        <li>
+          <a href="#"
+            >More
+            <i class="arrow-down-icon ti-angle-down"></i>
+            <ul class="subnav">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+      <!-- begin search and menu-->
+      <div class="search">
+        <i class="search-icon ti-search"></i>
+      </div>
+    </div>
+    <!-- end search and menu-->
+    <!-- end nav  -->
 
-<body>
-     <div id="header">
-          <!-- begin nav -->
-          <ul id="nav">
-               <li><a href="#">Home</a></li>
-               <li><a href="#part-inf-member">Band</a></li>
-               <li><a href="#part-tour">Tour</a></li>
-               <li><a href="#part-contact">Contact</a></li>
-               <li>
-                    <a href="">More
-                         <i class="arrow-down-icon ti-angle-down"></i>
-                         <ul class="subnav">
-                              <li><a href="#">Merchandise</a></li>
-                              <li><a href="#">Extras</a></li>
-                              <li><a href="#">Media</a></li>
-                         </ul>
-                    </a>
-               </li>
+    <!-- begin side bar -->
+
+    <div class="side-bar">
+      <input type="checkbox" name="" id="check-side-bar" class="check-box" />
+      <label for="check-side-bar" class="menu">
+        <i class="ti-view-list menu-icon"></i>
+      </label>
+      <ul id="list-item-side-bar">
+        <li><a href="#part-inf-member">Band</a></li>
+        <li><a href="#part-tour">Tour</a></li>
+        <li><a href="#part-contact">Contact</a></li>
+        <li><a href="#">Merch</a></li>
+      </ul>
+    </div>
+    <!-- end side bar -->
+
+    <div id="slide">
+      <div class="text_content">
+        <h2 class="header_description">Chicago</h2>
+        <p class="content_description">
+          Thank you, Chicago - A night we won't forget.
+        </p>
+      </div>
+    </div>
+    <div id="content">
+      <!-- about-section -->
+      <div class="content-section" id="part-inf-member">
+        <div class="heading-section">THE BAND</div>
+        <h2 class="heading-sub-section">We love music</h2>
+        <p class="about-content">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <div class="row text-align member-list">
+          <div class="col col-third l-6">
+            <p class="name-member">Name</p>
+            <img
+              src="/assets/img/bandmember.jpg"
+              alt="member"
+              class="img-member"
+            />
+          </div>
+          <div class="col col-third l-12">
+            <p class="name-member">Name</p>
+            <img
+              src="/assets/img/bandmember.jpg"
+              alt="member"
+              class="img-member"
+            />
+          </div>
+          <div class="col col-third l-12">
+            <p class="name-member">Name</p>
+            <img
+              src="/assets/img/bandmember.jpg"
+              alt="member"
+              class="img-member"
+            />
+          </div>
+          <!-- <div class="last"></div> -->
+        </div>
+      </div>
+      <!-- tour section -->
+      <div class="tour-section" id="part-tour">
+        <div class="content-section">
+          <div class="heading-section text-white">TOUR DATES</div>
+          <h2 class="heading-sub-section text-white">
+            Remember to book your tickets!
+          </h2>
+          <ul class="list-ticket">
+            <li class="ticket">
+              September<span class="sold-out">Sold out</span>
+            </li>
+            <li class="ticket">
+              October<span class="sold-out">Sold out</span>
+            </li>
+            <li class="ticket">November<span class="quantity">3</span></li>
           </ul>
-          <!-- end nav  -->
-          <!-- begin search -->
-          <div class="search">
-               <i class="search-icon ti-search"></i>
+          <!--start place-ticket -->
+          <div class="row list-place-show">
+            <div class="col col-third l-12">
+              <img
+                src="/assets/img/newyork.jpg"
+                alt="New-York"
+                class="img-place"
+              />
+              <div class="body-place">
+                <h3 class="name-place">New York</h3>
+                <p class="date-show">Fri 27 Nov 2016</p>
+                <p class="description-show">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="buy-ticket">Buy Tickets</a>
+              </div>
+            </div>
+            <div class="col col-third l-12">
+              <img src="assets/img/paris.jpg" alt="Paris" class="img-place" />
+              <div class="body-place">
+                <h3 class="name-place">San Francisco</h3>
+                <p class="date-show">Sun 29 Nov 2016</p>
+                <p class="description-show">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="buy-ticket">Buy Tickets</a>
+              </div>
+            </div>
+            <div class="col col-third l-12">
+              <img
+                src="/assets/img/sanfran.jpg"
+                alt="San Francisco"
+                class="img-place"
+              />
+              <div class="body-place">
+                <h3 class="name-place">Paris</h3>
+                <p class="date-show">Sat 28 Nov 2016</p>
+                <p class="description-show">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="buy-ticket">Buy Tickets</a>
+              </div>
+            </div>
+            <!-- <div class="last"></div> -->
+            <!-- end place-ticket -->
           </div>
-          <!-- end search -->
-     </div>
-
-
-
-     <div id="slide">
-          <div class="text_content">
-          <h2 class="header_description">Chicago</h2>
-          <p class="content_description">Thank you, Chicago - A night we won't forget.</p>
+        </div>
+      </div>
+      <!-- contact section -->
+      <div class="content-section" id="part-contact">
+        <div class="heading-section">CONTACT</div>
+        <h2 class="heading-sub-section">Fan? Drop a note!</h2>
+        <div class="body-contact">
+          <div class="row">
+            <div class="col col-half contact-inf l-6">
+              <p><i class="ti-location-pin"></i>Chicago, US</p>
+              <p><i class="ti-headphone-alt"></i>Phone: +00 151515</p>
+              <p><i class="ti-email"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-half contact-fill l-6">
+              <form action="">
+                <div class="row">
+                  <div class="first-fill col col-half l-6">
+                    <input
+                      type="text"
+                      required
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col col-half l-6">
+                    <input
+                      type="email"
+                      required
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-full">
+                    <input
+                      type="text"
+                      required
+                      class="form-control"
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <input type="submit" value="SEND" class="button-sent-contact" />
+              </form>
+            </div>
           </div>
-     </div>
-     <div id="content">
-          <!-- about-section -->
-          <div class="content-section p112" id="part-inf-member">
-               <div class="heading-section">THE BAND</div>
-               <h2 class="heading-sub-section">We love music</h2>
-               <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <div class="row text-align member-list">
-                    <div class="col col-third">
-                         <p class="name-member">Name</p>
-                         <img src="/assets/img/bandmember.jpg" alt="member" class="img-member">
-                    </div>
-                    <div class="col col-third">
-                         <p class="name-member">Name</p>
-                         <img src="/assets/img/bandmember.jpg" alt="member" class="img-member">
-                         
-                    </div>
-                    <div class="col col-third">
-                         <p class="name-member">Name</p>
-                         <img src="/assets/img/bandmember.jpg" alt="member" class="img-member">
-                    </div>
-                    <!-- <div class="last"></div> -->
-               </div>
-          </div>
-          <!-- tour section -->
-          <div class="tour-section" id="part-tour">
-               <div class="content-section p112">
-                    <div class="heading-section text-white">TOUR DATES</div>
-                    <h2 class="heading-sub-section text-white">Remember to book your tickets!</h2>
-                    <ul class="list-ticket">
-                         <li class="ticket">September<span class="sold-out">Sold out</span></li>
-                         <li class="ticket">October<span class="sold-out">Sold out</span ></li>
-                         <li class="ticket">November<span class=" quantity">3</span></li>
-                    </ul>
-                    <!--start place-ticket -->
-                    <div class="row list-place-show">
-                         <div class="col col-third">
-                              <img src="/assets/img/newyork.jpg" alt="New-York" class="img-place">
-                              <div class="body-place">
-                                   <h3 class="name-place">New York</h3>
-                                   <p class="date-show">Fri 27 Nov 2016</p>
-                                   <p class="description-show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                   <a href="" class="buy-ticket">Buy Tickets</a>
-                              </div>
-                         </div>
-                         <div class="col col-third">
-                              <img src="assets/img/paris.jpg" alt="Paris" class="img-place">
-                              <div class="body-place">
-                                   <h3 class="name-place">San Francisco</h3>
-                                   <p class="date-show">Sun 29 Nov 2016</p>
-                                   <p class="description-show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                   <a href="" class="buy-ticket">Buy Tickets</a>
-                              </div>
-                              
-                         </div>
-                         <div class="col col-third">
-                              <img src="/assets/img/sanfran.jpg" alt="San Francisco" class="img-place">
-                              <div class="body-place">
-                                   <h3 class="name-place">Paris</h3>
-                                   <p class="date-show">Sat 28 Nov 2016</p>
-                                   <p class="description-show">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                   <a href="" class="buy-ticket">Buy Tickets</a>
-                              </div>
-                         </div>
-                         <!-- <div class="last"></div> -->
-                         <!-- end place-ticket -->
-                         
-                    </div>
-                    
-               </div>
-               
-          </div>
-          <!-- contact section -->
-          <div class="content-section" id="part-contact">
-               <div class="heading-section">CONTACT</div>
-               <h2 class="heading-sub-section">Fan? Drop a note!</h2>
-          <div class="body-contact">
-               <div class="row">
-                    <div class="col col-half contact-inf">
-                         <p ><i class="ti-location-pin"></i>Chicago, US</p>
-                         <p ><i class="ti-headphone-alt"></i>Phone: +00 151515</p>
-                         <p ><i class="ti-email"></i>Email: mail@mail.com</p>
-                    </div>
-                    <div class="col col-half contact-fill">
-                         <form action="">
-                         <div class="row">
-                              <div class="first-fill col col-half">
-                                   <input type="text" required class="form-control" placeholder="Name">
-                              </div>
-                              <div class="col col-half">
-                                   <input type="email" required class="form-control" placeholder="Email">
-                              </div>
-                         </div>
-                         <div class="row">
-                              <div class="col col-full">
-                                   <input type="text" required class="form-control" placeholder="Message">
-                              </div>
-                         </div>
-                         <input type="submit" value="SEND" class="button-sent-contact">
-                    </form>
-                    </div>
-               </div>
-          </div>
-          </div>
-          <img src="/assets/img/map.jpg" alt="Map" class="map">
-     </div>
-     <div id="footer" class="text-align">
-          <div class="society-icon">
-               <i class="ti-facebook"></i>
-               <i class="ti-instagram"></i>
-               <i class="ti-twitter"></i>
-               <i class="ti-linkedin"></i>
-               <i class="ti-pinterest"></i>
-               <i class="ti-youtube"></i>
-          </div>
-          <p class="author">Powered by <a href="https://www.w3schools.com/w3css/default.asp" class="link-author">w3.css</a></p>
-     </div>
-</body>
-
+        </div>
+      </div>
+      <img src="/assets/img/map.jpg" alt="Map" class="map" />
+    </div>
+    <div id="footer" class="text-align">
+      <div class="society-icon">
+        <i class="ti-facebook"></i>
+        <i class="ti-instagram"></i>
+        <i class="ti-twitter"></i>
+        <i class="ti-linkedin"></i>
+        <i class="ti-pinterest"></i>
+        <i class="ti-youtube"></i>
+      </div>
+      <p class="author">
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          class="link-author"
+          >w3.css</a
+        >
+      </p>
+    </div>
+  </body>
 </html>
 <!-- comment test git wed -->
 <!-- comment test code in vs code  -->

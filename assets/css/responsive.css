@@ -1,0 +1,29 @@
+/* mobile */
+@media (max-width: 740px) {
+  #nav > li {
+    display: block;
+  }
+  #header .search {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  #header {
+    overflow: hidden;
+  }
+  .text_content {
+    display: none;
+  }
+  .l-12 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .l-6 {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+}
