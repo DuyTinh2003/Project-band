@@ -176,10 +176,6 @@ html {
 .text_content {
   padding: 32px 16px;
   text-align: center;
-  left: 0;
-  right: 0;
-  position: absolute;
-  bottom: 0;
 }
 #slide > .text_content > .header_description {
   color: rgb(243, 235, 235);
@@ -229,7 +225,7 @@ html {
 
 #content .member-list {
   padding-top: 47px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 #content .name-member {
