@@ -362,6 +362,7 @@ html {
   padding: 10px 15px;
   background-color: rgb(0, 0, 0);
   float: right;
+  -webkit-appearance: none;
 }
 /* end contact */
 /* start map */
